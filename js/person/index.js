@@ -68,7 +68,7 @@ let person =
                 "street": "Dorfstrasse 9",
                 "zip": "8000",
                 "city": "Zürich",
-                "country": "CH"
+                "country": "FR"
             }
         },
         {
@@ -83,7 +83,7 @@ let person =
                 "street": "Dorfstrasse 9",
                 "zip": "7400",
                 "city": "Thusis",
-                "country": "CH"
+                "country": "RU"
             }
         },
     ]
