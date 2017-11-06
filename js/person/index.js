@@ -32,14 +32,14 @@ let person =
             "picture": "",
         },
     ],
-    "addres": {
+    "address": {
         "street": "Matternhornstr. 123",
         "zip": "8604",
         "city": "Volketswil",
         "country": "CH"
     },
     "languages": ["EN", "DE", "TR"],
-    "salary": 83000.00,
+    "salary": 53000,
     "friends": [
         {
             "firstName": "Hakan",
@@ -47,6 +47,7 @@ let person =
             "gender": "M",
             "birth": new Date(1974, 1, 5),
             "profession": "Engineer",
+            "salary": 104000,
             "picture": "",
             "address": {
                 "street": "Seegartenstr. 55",
@@ -61,6 +62,7 @@ let person =
             "gender": "M",
             "birth": new Date(1965, 11, 2),
             "profession": "Manager",
+            "salary": 78000,
             "picture": "",
             "address": {
                 "street": "Dorfstrasse 9",
@@ -76,6 +78,7 @@ let person =
             "birth": new Date(1983, 4, 4),
             "picture": "",
             "profession": "Consultant",
+            "salary": 99000,
             "address": {
                 "street": "Dorfstrasse 9",
                 "zip": "7400",
