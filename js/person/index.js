@@ -1,9 +1,8 @@
 
 let person = 
    {
-    "id": 45,
     "firstName": "Mehmet",
-    "lastName": "B.",
+    "lastName": "Karadeniz",
     "gender": "M",
     "birth": new Date(1978, 7, 5),
     "origin": "TR",
@@ -43,10 +42,46 @@ let person =
     "salary": 83000.00,
     "friends": [
         {
-            "firstName": "Elif",
-            "lastName": "",
+            "firstName": "Hakan",
+            "lastName": "Basak",
             "gender": "M",
-            "birth": new Date(20011, 7, 5),
+            "birth": new Date(1974, 1, 5),
+            "profession": "Engineer",
+            "picture": "",
+            "address": {
+                "street": "Seegartenstr. 55",
+                "zip": "9000",
+                "city": "St.Gallen",
+                "country": "CH"
+            }
+        },
+        {
+            "firstName": "Selami",
+            "lastName": "Has",
+            "gender": "M",
+            "birth": new Date(1965, 11, 2),
+            "profession": "Manager",
+            "picture": "",
+            "address": {
+                "street": "Dorfstrasse 9",
+                "zip": "8000",
+                "city": "Zürich",
+                "country": "CH"
+            }
+        },
+        {
+            "firstName": "Katherina",
+            "lastName": "Kusuva",
+            "gender": "F",
+            "birth": new Date(1983, 4, 4),
+            "picture": "",
+            "profession": "Consultant",
+            "address": {
+                "street": "Dorfstrasse 9",
+                "zip": "7400",
+                "city": "Thusis",
+                "country": "CH"
+            }
         },
     ]
 }
