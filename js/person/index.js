@@ -12,16 +12,25 @@ let person =
             "firstName": "Büsra",
             "gender": "M",
             "birth": new Date(2007, 5, 5),
+            "picture": "",
         },
         {
             "firstName": "Serhat",
             "gender": "F",
             "birth": new Date(2009, 6, 5),
+            "picture": "",
         },
         {
             "firstName": "Elif",
             "gender": "F",
-            "birth": new Date(20011, 7, 5),
+            "birth": new Date(2011, 7, 5),
+            "picture": "",
+        },
+        {
+            "firstName": "Ali",
+            "gender": "M",
+            "birth": new Date(2018, 8, 5),
+            "picture": "",
         },
     ],
     "addres": {
@@ -33,6 +42,11 @@ let person =
     "languages": ["EN", "DE", "TR"],
     "salary": 83000.00,
     "friends": [
-        
+        {
+            "firstName": "Elif",
+            "lastName": "",
+            "gender": "M",
+            "birth": new Date(20011, 7, 5),
+        },
     ]
 }
