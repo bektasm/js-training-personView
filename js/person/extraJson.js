@@ -1,4 +1,4 @@
-[{
+const foreigners = [{
   "id": 1,
   "first_name": "Nesta",
   "last_name": "Farrance",
