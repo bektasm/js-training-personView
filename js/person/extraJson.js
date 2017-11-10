@@ -1,3 +1,8 @@
+/*
+ you can create any type of json file form this address: https://www.mockaroo.com/
+ it is useful to create frontend applications without waiting backend to be done to serve you data.
+*/
+
 const foreigners = [{
   "id": 1,
   "first_name": "Nesta",
