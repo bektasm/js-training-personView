@@ -1,0 +1,8 @@
+.info-container .placeHolder{
+  min-height: 200px;
+  border: 1px solid black;
+}
+
+.info-container .info-box{
+  margin-top:30px;
+}
