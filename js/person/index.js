@@ -82,7 +82,7 @@ let person =
             "profession": "Consultant",
             "salary": 99000,
             "address": {
-                "street": "Petersburgstreet 9",
+                "street": "St.Petersburgstreet 9",
                 "zip": "74000",
                 "city": "Moscow",
                 "country": "RU"
