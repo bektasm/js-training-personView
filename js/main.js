@@ -17,11 +17,25 @@ const friends = $('.friends .placeHolder');
 $('#init').on('click', init);
 
 function init() {
+  reset();
+  try{
+    const input = $('#jsonInput').val();
+    person = JSON.parse(input);
+  } catch(e){ }
+
   personImage.attr('src', getValuesByKey('picture'));
   personName.html(`${getValuesByKey('firstName')} ${getValuesByKey('lastName')}`)
   fillPersonDetails();
   fillChildrenDetails();
   fillFriendDetails();
+}
+
+function reset(){
+  personImage.attr('src', '');
+  personName.html('');
+  personDetails.html('');
+  friends.html('');
+  children.html('');
 }
 
 function fillPersonDetails() {
@@ -78,7 +92,8 @@ function setTableDatas (items, usableFields){
       try{
 
         if (field === 'address') {
-          item[field] = JSON.stringify(item[field]);
+          const link = "https://www.google.ch/maps/place/"+Object.values(item[field]).join(" ");
+          item[field] = `<a href="${link}" target="blank_">visit me!</a>`;
         }
 
         if(moment(item[field], true).isValid()) {
